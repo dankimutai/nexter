@@ -46,6 +46,7 @@
 
 .story__pictures {
   background-color: var(--color-grey-light-2);
+  display: grid;
   grid-column: full-start/col-end 4;
 }
 .story__content {

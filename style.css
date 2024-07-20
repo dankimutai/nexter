@@ -41,7 +41,8 @@
   background-color: var(--color-grey-dark-2);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column: full-start/centre-end;
+  grid-column: center-start/centre-end;
+  grid-gap: 6rem;
 }
 
 .story__pictures {

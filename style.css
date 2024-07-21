@@ -64,10 +64,10 @@
   display: grid;
   grid-column: full-start/full-end;
 }
-.footer {
+/* .footer {
   background-color: #6d5d4b;
   display: grid;
-  grid-column: full-start/full-end;
+  grid-column: full-start/full-end; */
 }
 .feature {
   display: grid;

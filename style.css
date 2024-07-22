@@ -61,7 +61,56 @@
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 5rem;
 }
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.home img {
+  width: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+.home__like {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  fill: var(--color-grey-light-1);
+  height: 2rem;
+  width: 2rem;
+  justify-self: end;
+}
 
+.home__location {
+  fill: var(--color-grey-light-1);
+  height: 2rem;
+  width: 2rem;
+}
+.home__rooms {
+  fill: var(--color-grey-light-1);
+  height: 2rem;
+  width: 2rem;
+}
+.home__area {
+  fill: var(--color-grey-light-1);
+  height: 2rem;
+  width: 2rem;
+}
+.home__price {
+  fill: var(--color-grey-light-1);
+  height: 2rem;
+  width: 2rem;
+}
+.home svg {
+  fill: var(--color-grey-light-1);
+  height: 2rem;
+  width: 2rem;
+}
+.home p {
+  height: 2rem;
+  width: 2rem;
+}
+.cta {
+  grid-column: 1/-1;
+}
 .gallery {
   background-color: antiquewhite;
   display: grid;
